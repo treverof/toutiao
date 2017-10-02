@@ -238,6 +238,11 @@ public class Main {
 
     }
 
+    public static void demoClass(){
+        Animal animal = new Animal("li",22);
+        animal.say();
+    }
+
     public static void main(String[] args) {
 //        System.out.println("Hello world");
 //        print(1,"hello");
@@ -249,5 +254,6 @@ public class Main {
 //        demoKeyValue();
 //        demoException();
 //        demoCommon();
+        demoClass();
     }
 }
